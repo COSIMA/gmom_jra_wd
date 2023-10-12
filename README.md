@@ -4,7 +4,7 @@
 
 This configuration is adapted from an officially-unsupported CESM configuration
 (The CIME GMOM_JRA_WD "compset"). It was generated using a fork of
-[CESM](https://github.com/COSIMA/CESM) with following commands:
+[CESM](https://github.com/COSIMA/CESM) with the following commands:
 
 ```bash
 git clone https://github.com/COSIMA/CESM
