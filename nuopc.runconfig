@@ -137,7 +137,7 @@ ALLCOMP_attributes::
      start_type = startup
      tfreeze_option = linear_salt
      username = ds0092
-     wav_coupling_to_cice = .false.
+     wav_coupling_to_cice = .true.
      write_restart_at_endofrun = .false.
 ::
 
