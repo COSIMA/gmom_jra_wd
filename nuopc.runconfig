@@ -64,7 +64,7 @@ PELAYOUT_attributes::
      rof_nthreads = 1
      rof_pestride = 1
      rof_rootpe = 0
-     wav_ntasks = 1
+     wav_ntasks = 24
      wav_nthreads = 1
      wav_pestride = 1
      wav_rootpe = 0
