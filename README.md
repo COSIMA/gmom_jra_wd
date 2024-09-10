@@ -13,7 +13,6 @@ following components:
 All the configurations use the [payu](https://payu.readthedocs.io/en/latest/)
 workflow management tool.
 
-
 ## Repository structure
 
 Each configuration is stored as a git branch. Most of the branches are named
@@ -40,7 +39,6 @@ for testing ACCESS-OM3:
 
 These configurations should **not** be used for production runs.
 
-
 ## Setting up an experiment
 
 The first thing to do is to clone this repository. Although it is possible to
@@ -65,10 +63,10 @@ Here is an step-by-step example of how to set up a `1deg_jra55do_ryf` experiment
 (called `my_1deg_jra55do_ryf_experiment_name`) after setting up your fork:
 
 ```bash
-$ git clone git@github.com:<username>/MOM6-CICE6-WW3.git my_1deg_jra55do_ryf_experiment_name
-$ cd my_1deg_jra55do_ryf_experiment_name
-$ git checkout 1deg_jra55do_ryf
-$ git checkout -b my_1deg_jra55do_ryf_experiment_name
+git clone git@github.com:<username>/MOM6-CICE6-WW3.git my_1deg_jra55do_ryf_experiment_name
+cd my_1deg_jra55do_ryf_experiment_name
+git checkout 1deg_jra55do_ryf
+git checkout -b my_1deg_jra55do_ryf_experiment_name
 ```
 
 Here `<username>` should be your GitHub user name.
@@ -80,23 +78,22 @@ the `config.yaml` file and change the following line:
 ```yaml
 runlog: false
 ```
+
 to
+
 ```yaml
 runlog: true
 ```
-
 
 ## Customising your experiment
 
 See [this section of the quick start instructions in the ACCESS-OM3
 wiki](https://github.com/COSIMA/access-om3/wiki/Quick-start#customising-your-experiment).
 
-
 ## Running your experiment
 
 See [this section of the quick start instructions in the ACCESS-OM3
 wiki](https://github.com/COSIMA/access-om3/wiki/Quick-start#running).
-
 
 ## Pull requests
 
