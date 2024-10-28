@@ -25,25 +25,16 @@ biogeochemistry, is appended to the name.
 
 Currently the following configurations are available:
 
-- [`1deg_jra55do_ryf`](https://github.com/COSIMA/MOM6-CICE6-WW3/tree/1deg_jra55do_ryf)
+- [`dev-1deg_jra55do_ryf`](https://github.com/ACCESS-NRI/access-om3-wav-configs/tree/dev-1deg_jra55do_ryf)
+- [`dev-1deg_jra55do_iaf`](https://github.com/ACCESS-NRI/access-om3-wav-configs/tree/dev-1deg_jra55do_iaf)
 
 **Note that the [`main`](https://github.com/COSIMA/MOM6-CICE6-WW3/tree/main)
 branch does not store any configuration, only some documentation.**
 
-This repository also contains the following configurations that are only used
-for testing ACCESS-OM3:
-
-- [`gmom_jra_wd`](https://github.com/COSIMA/MOM6-CICE6-WW3/tree/gmom_jra_wd):
-  configuration based on the `GMOM_JRA_WD`
-  [CESM](https://github.com/ESCOMP/CMEPS/) compset.
-
-These configurations should **not** be used for production runs.
-
 ## Setting up an experiment
 
 The first thing to do is to clone this repository. Although it is possible to
-directly clone the repository from the [COSIMA
-organization](https://github.com/COSIMA/), it is better to use a fork
+directly clone the repository from this repository, it is better to use a fork
 instead. This will allow you to push any changes you make to the configuration,
 as well as use the payu run log to keep track of your experiment in your fork on
 GitHub. Detailed instructions about how to set up a fork can be found
@@ -59,13 +50,13 @@ configuration. It is then good practice to start a new branch with the same name
 as your directory so you can use git to easily see how your run configuration
 differs from the original.
 
-Here is an step-by-step example of how to set up a `1deg_jra55do_ryf` experiment
+Here is an step-by-step example of how to set up a `dev-1deg_jra55do_ryf` experiment
 (called `my_1deg_jra55do_ryf_experiment_name`) after setting up your fork:
 
 ```bash
-git clone git@github.com:<username>/MOM6-CICE6-WW3.git my_1deg_jra55do_ryf_experiment_name
+git clone git@github.com:<username>/access-om3-wav-configs.git my_1deg_jra55do_ryf_experiment_name
 cd my_1deg_jra55do_ryf_experiment_name
-git checkout 1deg_jra55do_ryf
+git checkout dev-1deg_jra55do_ryf
 git checkout -b my_1deg_jra55do_ryf_experiment_name
 ```
 
